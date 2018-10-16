@@ -26,5 +26,11 @@ namespace UWP_Demo
         {
             this.InitializeComponent();
         }
+
+        private void showCommndBarBtn_Click(object sender, RoutedEventArgs e)
+        {
+            CommandBar commandBar = new CommandBar();
+            
+        }
     }
 }
